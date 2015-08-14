@@ -69,7 +69,11 @@
   <ItemGroup>
     <Content Include="Content\fabric.components.min.css" />
     <Content Include="Content\fabric.min.css" />
+    <Content Include="Fonts\office365icons.svg" />
     <Content Include="packages.config" />
+    <Content Include="Fonts\office365icons.eot" />
+    <Content Include="Fonts\office365icons.ttf" />
+    <Content Include="Fonts\office365icons.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
