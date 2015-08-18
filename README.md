@@ -12,7 +12,7 @@
 
 <a name="summary"></a>
 ##Summary
-This sample plug-in for Office demonstrates how to save custom settings in a plug-in in Word 2013, Excel 2013, PowerPoint 2013, or Project Professional 2013. The plug-in stores data as key/value pairs, using the JavaScript API for Office property bag, browser cookies, web storage (**localStorage** and **sessionStorage**), or by storing the data in a hidden div in the document. The plug-in also demonstrates best practices for implementing multiple-page navigation in an plug-in for Office.
+This sample add-in for Office demonstrates how to save custom settings in a add-in in Word 2013, Excel 2013, PowerPoint 2013, or Project Professional 2013. The add-in stores data as key/value pairs, using the JavaScript API for Office property bag, browser cookies, web storage (**localStorage** and **sessionStorage**), or by storing the data in a hidden div in the document. The add-in also demonstrates best practices for implementing multiple-page navigation in an add-in for Office.
 
 <a name="prerequisites"></a>
 ## Prerequisites ##
@@ -26,7 +26,7 @@ This sample requires the following:
 
 <a name="components"></a>
 ## Key components of the sample
-The Persist custom settings sample plug-in contains the following notable files:
+The Persist custom settings sample add-in contains the following notable files:
 
 The CodeSample_PersistCustomSettings project, including: 
 
@@ -40,12 +40,12 @@ The CodeSample_PersistCustomSettings project, including:
 <a name="build"></a>
 ## Build and debug ##
 
-1. Choose the F5 key in Visual Studio to build and deploy the plug-in.
-2. Use the plug-in’s interface to save data as key/value pairs and to retrieve a stored value using its key. 
+1. Choose the F5 key in Visual Studio to build and deploy the add-in.
+2. Use the add-in’s interface to save data as key/value pairs and to retrieve a stored value using its key. 
 
 <a name="troubleshooting"></a>
 ##Troubleshooting
-If the plug-in fails to install, ensure that the  **SourceLocation** element in the CodeSample_PersistCustomSettings.xml has the correct URL value for the **DefaultValue** attribute.
+If the add-in fails to install, ensure that the  **SourceLocation** element in the CodeSample_PersistCustomSettings.xml has the correct URL value for the **DefaultValue** attribute.
 
 <a name="questions"></a>
 ##Questions and comments##

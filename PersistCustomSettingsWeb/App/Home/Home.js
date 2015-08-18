@@ -28,7 +28,7 @@ Office.initialize = function (reason) {
     //};
 }
 
-// Sets the type of storage to be used for the plug-in for Office.
+// Sets the type of storage to be used for the add-in for Office.
 function setStorageMode() {
 
     try {
@@ -148,7 +148,7 @@ function setSettings() {
 }
 
 // Gets the saved setting using the name typed into the textbox.
-// Results are displayed in a toast at the bottom of the plug-in.
+// Results are displayed in a toast at the bottom of the add-in.
 function getSettings() {
     try {
         var settingName = document.getElementById('storedSetting');
