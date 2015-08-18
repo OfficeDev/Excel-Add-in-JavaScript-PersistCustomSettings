@@ -12,7 +12,7 @@
 
 <a name="summary"></a>
 ##Summary
-This sample add-in for Office demonstrates how to save custom settings in a add-in in Excel 2013. The add-in stores data as key/value pairs, using the JavaScript API for Office property bag, browser cookies, web storage (**localStorage** and **sessionStorage**), or by storing the data in a hidden div in the document. The add-in also demonstrates best practices for implementing multiple-page navigation in an add-in for Office.
+This sample demonstrates how to save custom settings inside an Excel Add-in. The add-in stores data as key/value pairs, using the JavaScript API for Office property bag, browser cookies, web storage (**localStorage** and **sessionStorage**), or by storing the data in a hidden div in the document. The add-in also demonstrates best practices for implementing multiple-page navigation in an add-in for Office.
 
 <a name="prerequisites"></a>
 ## Prerequisites ##
