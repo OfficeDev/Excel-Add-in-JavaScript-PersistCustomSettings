@@ -12,17 +12,18 @@
 
 <a name="summary"></a>
 ##Summary
-This sample add-in for Office demonstrates how to save custom settings in a add-in in Word 2013, Excel 2013, PowerPoint 2013, or Project Professional 2013. The add-in stores data as key/value pairs, using the JavaScript API for Office property bag, browser cookies, web storage (**localStorage** and **sessionStorage**), or by storing the data in a hidden div in the document. The add-in also demonstrates best practices for implementing multiple-page navigation in an add-in for Office.
+This sample add-in for Office demonstrates how to save custom settings in a add-in in Excel 2013. The add-in stores data as key/value pairs, using the JavaScript API for Office property bag, browser cookies, web storage (**localStorage** and **sessionStorage**), or by storing the data in a hidden div in the document. The add-in also demonstrates best practices for implementing multiple-page navigation in an add-in for Office.
 
 <a name="prerequisites"></a>
 ## Prerequisites ##
 
 This sample requires the following:
 
-- Word 2013, Excel 2013, PowerPoint 2013, or Project Professional 2013. 
-- Visual Studio 2012 or higher.
-- Microsoft Edge, Internet Explorer 9 or higher.
-- Basic familiarity with JavaScript, CSS, jQuery, and HTML5. 
+- Visual Studio 2013 with Update 5 or Visual Studio 2015.
+- Excel 2013
+- Internet Explorer 9 or later, which must be installed but doesn't have to be the default browser. To support Office Add-ins, the Office client that acts as host uses browser components that are part of Internet Explorer 9 or later.
+- One of the following as the default browser: Internet Explorer 9, Safari 5.0.6, Firefox 5, Chrome 13, or a later version of one of these browsers.
+ Familiarity with JavaScript programming and web services.
 
 <a name="components"></a>
 ## Key components of the sample
