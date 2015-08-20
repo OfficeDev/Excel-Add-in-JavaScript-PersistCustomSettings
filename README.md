@@ -58,6 +58,7 @@ If the add-in fails to install, ensure that the  **SourceLocation** element in t
 <a name="additional-resources"></a>
 ## Additional resources ##
 
+- [More Add-in samples](https://github.com/OfficeDev?utf8=%E2%9C%93&query=-Add-in)
 - [Introduction to Web Storage ](http://msdn.microsoft.com/library/cc197062(VS.85).aspx)
 - [Settings object ](http://msdn.microsoft.com/library/fp142179(v=office.15))
 
