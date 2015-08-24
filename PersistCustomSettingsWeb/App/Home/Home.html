@@ -31,17 +31,17 @@
 
 </head>
 <body>
-    <h1 id="page">Storage</h1>
+    <h1 class="ms-font-xxl" id="page">Storage</h1>
     <div id="nav" style="padding:0px;margin:0px">
         <table>
             <tr>
-                <td><a id="storelink" href="javascript:switchPage('Storage')">Storage</a></td>
-                <td><a id="settingslink" href="javascript:switchPage('Settings')">Settings</a></td>
+                <td><a class="ms-font-m" id="storelink" href="javascript:switchPage('Storage')">Storage</a></td>
+                <td><a class="ms-font-m" id="settingslink" href="javascript:switchPage('Settings')">Settings</a></td>
             </tr>
         </table>
     </div>
     <div id="saveui" class="displayedpage">
-        <h2>Store Info</h2>
+        <h2 class="ms-font-xl">Store Info</h2>
         <input type="text"
                id="newSetting"
                value="Type a setting name"
@@ -55,25 +55,25 @@
                onfocusout="changeText(this, false)"
                class="textbox"
                style="margin-top:10px" />
-        <button class="ms-Button" style="margin-top:10px" onclick="setSettings()">
+        <button class=" ms-Button-label" style="margin-top:10px" onclick="setSettings()">
             <span class="ms-Button-label">Save</span>
         </button>
 
     </div>
     <div id="getui" class="displayedpage">
-        <h2>Get Info</h2>
+        <h2 class="ms-font-xl"> Get Info</h2>
         <input type="text"
                id="storedSetting"
                value="Type a setting to get"
                onfocusin="changeText(this, false)"
                onfocusout="changeText(this, false)"
                class="textbox" />
-        <button class="ms-Button" style="margin-top:10px" onclick="getSettings()"> 
+        <button class="ms-Button-label" style="margin-top:10px" onclick="getSettings()"> 
             <span class="ms-Button-label">Get</span>
         </button>
     </div>
     <div id="appsettings" class="hiddenpage">
-        <h2>Select storage type</h2>
+        <h2 class="ms-font-xl">Select storage type</h2>
         <form>
             <select name="storagetype" id="storagetype" onchange="setStorageMode()">
                 <option value="PropertyBag" selected="selected">Office App storage</option>
