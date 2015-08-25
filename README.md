@@ -32,8 +32,8 @@ The Persist custom settings sample add-in contains the following notable files:
 The CodeSample_PersistCustomSettings project, including: 
 
 - CodeSample_PersistCustomSettings.xml manifest
-- CodeSample_PersistCustomSettings.js file 
-- CodeSample_PersistCustomSettings.html file 
+- Home.js file 
+- Home.html file 
 - StorageLibrary.js file 
 - toast.js file 
 - App.css file 
