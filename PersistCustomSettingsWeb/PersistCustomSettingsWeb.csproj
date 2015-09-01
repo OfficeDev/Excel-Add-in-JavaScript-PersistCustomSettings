@@ -69,8 +69,6 @@
   <ItemGroup>
     <Content Include="App\Home\StorageLibrary.js" />
     <Content Include="App\Home\toast.js" />
-    <Content Include="Content\fabric.components.min.css" />
-    <Content Include="Content\fabric.min.css" />
     <Content Include="Fonts\office365icons.svg" />
     <Content Include="packages.config" />
     <Content Include="Fonts\office365icons.eot" />
