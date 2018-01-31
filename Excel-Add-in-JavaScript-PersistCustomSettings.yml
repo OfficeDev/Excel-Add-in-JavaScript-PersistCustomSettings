@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: Excel-Add-in-JavaScript-PersistCustomSettings
+  path: ''
+  description: This sample demonstrates how to save custom settings in an Excel Add-in. The add-in stores data as key/value pairs, using the JavaScript API for Office property bag, browser cookies, web storage (localStorage and sessionStorage), or by storing the data in a hidden div in the document.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-in
+  azureDeploy: ''
+  author: NormSohl
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Excel
+    scenarios: []
