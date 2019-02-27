@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Excel
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 8/12/2015 4:25:41 PM
+---
 # Excel-Add-in-JavaScript-PersistCustomSettings
 
 **Table of contents**
